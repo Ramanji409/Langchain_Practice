@@ -1,0 +1,20 @@
+LangChain is a framework for developing applications powered by language models.
+It provides components for building context-aware and reasoning-based applications.
+You can use LangChain to create chatbots, question-answering systems, and other NLP tools.
+LangChain supports models from OpenAI, Hugging Face, Cohere, and more.
+It enables connection with vector databases like FAISS, Chroma, and Pinecone.
+Vector databases store text embeddings and allow fast similarity searches.
+Embeddings are numeric representations of text that capture its meaning.
+LangChain can split large documents into smaller chunks for processing.
+These chunks are embedded and stored in a vector database for retrieval.
+When a user asks a question, LangChain finds the most relevant chunks.
+This improves the response accuracy of large language models.
+The CharacterTextSplitter is used to break text into fixed-size chunks
+Chunk size and overlap help preserve context between splits.
+FAISS is a popular open-source vector search library developed by Facebook.
+It supports fast approximate nearest neighbor searches.
+LangChain allows chaining multiple steps like retrieval, prompt templates, and LLM calls.
+This chaining process enables advanced workflows like document QA or summarization.
+LangChain can be used with Python and integrates well with external tools.
+Developers use it to build scalable and intelligent AI apps.
+Overall, LangChain bridges the gap between raw LLMs and real-world applications.
